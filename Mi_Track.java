@@ -4,7 +4,7 @@
 	Dr. Davide Ceresa, PhD
 	IRCCS Ospedale Policlinico San Martino, 16132 Genova, Italy
 	email: davide.ceresa91@gmail.com
-	and
+	and 
 	Prof. Paolo Malatesta, PhD 
 	IRCCS Ospedale Policlinico San Martino, 16132 Genova, Italy
 	Department of Experimental Medicine (DIMES), University of Genova, 16132 Genova, Italy
@@ -218,7 +218,7 @@ public class Mi_Track implements PlugInFilter, MouseListener {
 		}
 		else if (mod.equals("ShiftControlAlt")) {
 			
-			if(AskOK("Il comando invocato è distruttivo: vuoi procedere?"))
+			if(AskOK("Il comando invocato Ã¨ distruttivo: vuoi procedere?"))
 			{
 				if(((currentCell-(currentCell%2))/2)%2==1){
 					if(!AskOK("Cellula dispari: Sicuro di voler cancellare anche il ramo pari?"))
